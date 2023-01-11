@@ -1,0 +1,44 @@
+[gd_scene format=2]
+
+[node name="GlobalUI" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer"]
+margin_right = 168.0
+margin_bottom = 14.0
+custom_constants/separation = 10
+
+[node name="PlayerScore" type="Label" parent="VBoxContainer/HBoxContainer"]
+margin_right = 106.0
+margin_bottom = 14.0
+size_flags_horizontal = 3
+text = "Player Score:"
+
+[node name="playernumber" type="Label" parent="VBoxContainer/HBoxContainer"]
+margin_left = 116.0
+margin_right = 168.0
+margin_bottom = 14.0
+text = "Number"
+align = 3
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="VBoxContainer"]
+margin_top = 18.0
+margin_right = 168.0
+margin_bottom = 32.0
+custom_constants/separation = 10
+
+[node name="AIScore" type="Label" parent="VBoxContainer/HBoxContainer2"]
+margin_right = 106.0
+margin_bottom = 14.0
+text = "Computer Score:"
+
+[node name="ainumber" type="Label" parent="VBoxContainer/HBoxContainer2"]
+margin_left = 116.0
+margin_right = 168.0
+margin_bottom = 14.0
+text = "Number"

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Waterflame - 8-bit clouds (128 kbps).mp3-3c2fa5c8af3e2bbbfe11d1bd0687ba4a.mp3str"
+
+[deps]
+
+source_file="res://music/Waterflame - 8-bit clouds (128 kbps).mp3"
+dest_files=[ "res://.import/Waterflame - 8-bit clouds (128 kbps).mp3-3c2fa5c8af3e2bbbfe11d1bd0687ba4a.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
